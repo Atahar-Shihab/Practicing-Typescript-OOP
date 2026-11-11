@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encapsulation</title>
+</head>
+<style>
+    h1 {
+        color: blue;
+        text-align: center;
+    }
+::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    p {
+        font-size: 18px;
+        line-height: 1.6;
+        margin: 20px 0;
+    }
+    div {
+        margin: 20px 0;
+    }
+
+</style>
+<body>
+    <h1 style="color: blue;">Encapsulation</h1>
+    <p>Encapsulation is the bundling of data and methods that operate on that data within a single unit.</p>
+    <div>
+        <p style="display: flex;">This is a paragraph inside a </p>
+    </div>
+</body>
+<script type="module" src="./dist/encapsulation.js"></script>
+</html>
