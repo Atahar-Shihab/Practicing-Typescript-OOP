@@ -17,6 +17,7 @@ class Employee {
 }
 const employee = new Employee("John Doe", 22000);
 const employee2 = new Employee();
+// employee.baseSalary = 30000; // Error: Property 'baseSalary' is private and only accessible within class 'Employee'.
 console.log(employee);
 console.log(employee instanceof Employee);
 console.log(employee2);
